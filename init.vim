@@ -10,6 +10,7 @@ Plug 'w0rp/ale'
 Plug 'jiangmiao/auto-pairs'
 Plug 'SirVer/ultisnips'
 Plug 'natebosch/vim-lsc'
+Plug 'tpope/vim-commentary'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
@@ -30,6 +31,7 @@ set tabstop=4
 set hidden
 set number
 set cursorline
+set colorcolumn=80
 set mouse=a
 
 set inccommand=split
@@ -53,4 +55,4 @@ nnoremap <leader>tr :retab<cr>
 nnoremap j gj
 nnoremap k gk
 
-:filetype on
+filetype on
